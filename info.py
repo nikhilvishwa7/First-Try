@@ -83,6 +83,8 @@ MONGO_URL = os.environ.get('MONGO_URL', "")
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
+LANGUAGES = ["malayalam", "tamil", "english", "hindi", "telugu", "kannada"]
+
 # Others
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
