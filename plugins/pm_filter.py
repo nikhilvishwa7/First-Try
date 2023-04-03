@@ -1162,7 +1162,7 @@ async def auto_filter(client, msg, spoll=False):
          [
              InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton(f'Your Language, callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
+             InlineKeyboardButton(f'Your Language', callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
              InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
          ]
