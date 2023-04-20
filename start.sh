@@ -8,5 +8,6 @@ else
 fi
 cd /Eva
 pip3 install -U -r requirements.txt
+pip install --upgrade pip
 echo "Starting Bot...."
 python3 bot.py
