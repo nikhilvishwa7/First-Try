@@ -4,10 +4,9 @@ then
   git clone https://github.com/nikhilvishwa7/First-Try
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Eva
+  git clone $UPSTREAM_REPO /CALOPY-SANDY
 fi
-cd /Eva
+cd /Elsa
 pip3 install -U -r requirements.txt
-pip install --upgrade pip
-echo "Starting Bot...."
+echo "𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝙀𝙡𝙨𝙖....🧞‍♂️"
 python3 bot.py
